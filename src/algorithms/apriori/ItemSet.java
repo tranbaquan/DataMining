@@ -6,7 +6,7 @@ import java.util.*;
  * @author TranBaQuan
  *
  */
-public class ItemSet {
+public class ItemSet implements Cloneable {
 	// length of itemset
 	private int length;
 	// list item
